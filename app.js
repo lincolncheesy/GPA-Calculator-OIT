@@ -373,7 +373,7 @@ function renderHeader() {
                 GPA Calculator (3-Year OIT)
               </h1>
               <span class="px-2 py-0.5 text-xs font-semibold uppercase tracking-wider rounded-md bg-amber-400/20 text-amber-300 border border-amber-400/30">
-                Official Scale
+                Unofficial Scale
               </span>
             </div>
           </div>
