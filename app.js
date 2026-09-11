@@ -1548,6 +1548,8 @@ export function renderApp() {
 }
 
 // Initial Boot
-window.addEventListener('DOMContentLoaded', () => {
+if (document.readyState === 'loading') {
+  window.addEventListener('DOMContentLoaded', () => renderApp());
+} else {
   renderApp();
-});
+}
